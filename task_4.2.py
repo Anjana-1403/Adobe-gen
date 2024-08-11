@@ -42,7 +42,7 @@ def polylines2svg(paths_XYs, svg_path):
     except Exception as e:
         print(f"An error occurred: {e}")
 
-if _name_ == "_main_":
+if __name__ == "_main_":
     path1 = np.array([[0, 0], [1, 0], [1, 1], [0, 1]])
     path2 = np.array([[2, 2], [2.5, 2.5], [3, 2], [2.5, 1.5]])
 
