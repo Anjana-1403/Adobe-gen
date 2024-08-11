@@ -30,7 +30,7 @@ def complete_square(image):
 
     return completed_image
 
-image = cv2.imread(r"C:\Users\ANJANA\OneDrive\Pictures\Screenshots\Screenshot 2024-08-10 225327.png", cv2.IMREAD_GRAYSCALE)
+image = cv2.imread(r"square_complete.png", cv2.IMREAD_GRAYSCALE)
 
 result = complete_square(image)
 

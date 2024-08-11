@@ -1,6 +1,7 @@
 import svgwrite
 import cairosvg
 import numpy as np
+import cv2
 
 def polylines2svg(paths_XYs, svg_path):
     try:
@@ -48,5 +49,6 @@ if __name__ == "_main_":
 
     paths_XYs = [path1, path2]
     svg_path = 'output.svg'
+
 
     polylines2svg(paths_XYs, svg_path)
